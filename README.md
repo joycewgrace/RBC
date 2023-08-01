@@ -42,7 +42,7 @@ https://github.com/joycewgrace/RBC/blob/main/SQL/DML/client_credentials.sql
 
 Once the above set up is completed, you can list the users and check if proper roles are assigned.
 
-![image](https://github.com/joycewgrace/RBC/assets/141069257/a22a0050-316b-4e04-8b2a-0eebf36b0bb3)
+![du](https://github.com/joycewgrace/RBC/assets/141069257/de96e693-fe80-42cc-a522-fa8df012fb9b)
 
 **Step 6**
 
@@ -55,7 +55,7 @@ Call the script as shown below: Client_Id as argument
 ```
 python3 RBC_Client_Credentials_Retrieval.py 1
 ```
-![image](https://github.com/joycewgrace/RBC/assets/141069257/fe1194fa-d8ef-4b1e-98dd-9c06c03f4a72)
+![Retrieval](https://github.com/joycewgrace/RBC/assets/141069257/63341bb7-f0b0-4831-b95a-391ee7b0e3e5)
 
 
 **Step 7**
@@ -69,7 +69,7 @@ Call the script and enter values for prompts as shown below: Client_Id as argume
 ```
 python3 RBC_Client_Credentials_Update.py 1
 ```
-![image](https://github.com/joycewgrace/RBC/assets/141069257/6fa91a94-0b70-413f-bd4f-1d270ecfc8b9)
+![Update](https://github.com/joycewgrace/RBC/assets/141069257/eef79474-5167-42ed-b64f-1c00fa13aa53)
 </ul>
 </details>
 <details>
