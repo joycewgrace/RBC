@@ -78,23 +78,22 @@ python3 RBC_Client_Credentials_Update.py 1
 
 **1) File data copy**
 
-Error:
+_Error:
 SQL Error [42501]: ERROR: must be superuser or have privileges of the pg_read_server_files role to COPY from a file
-Hint: Anyone can COPY to stdout or from stdin. psql's \copy command also works for anyone.
+Hint: Anyone can COPY to stdout or from stdin. psql's \copy command also works for anyone._
 
-Solution:
+**Solution:**
 ```
 grant pg_read_server_files to sqluser;
 ```
 
 **2) File permission**
 
-Error: 
+_Error: 
 Permission denied 
-HINT: COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy. SQL state: 42501
+HINT: COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy. SQL state: 42501_
 
-Solution:
-
+**Solution:**
 Go to Properties of that particular file by right clicking on it. Then, go to Security tab of the displayed Properties dialog box. 
 Click on Edit option. Permissions dialog box appears, then click on Add button. Type 'Everyone' (without apostrophes) in the "Enter the object names to select" description box and click on OK button. 
 Then, make sure all the checkboxes of "Permissions for Everyone" are selected by just ticking the "Full Control" check box to allow the control access without any restriction.
@@ -102,20 +101,18 @@ Then, Apply and OK all the tabs to apply all the changes done.
 
 **3)Data issue - comma**
 
-Error:
+_Error:
 SQL Error [22P04]: ERROR: extra data after last expected column
-Where: COPY client_credentials, line 18: "16,Kristin, Sanders,!4lZ5%m4,bellmichael@example.org,2021-03-16 08:49:42"
+Where: COPY client_credentials, line 18: "16,Kristin, Sanders,!4lZ5%m4,bellmichael@example.org,2021-03-16 08:49:42"_
 
-Solution:
-
+**Solution:**
 Removed ","(comma) from the clientname column(Kristin, Sanders)
   
 **4) Encrypt column - bytea**
 
-Faced issue while decrypting the encrypted columns 
+_Faced issue while decrypting the encrypted columns_
 
-Solution:
-
+**Solution:**
 Encrypted columns need to be stored in bytea data type instead of varchar.
 
 </ul>
