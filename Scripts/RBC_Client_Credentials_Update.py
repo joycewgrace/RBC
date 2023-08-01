@@ -1,5 +1,7 @@
 import sys
 import psycopg2
+import os
+
 
 # This function will update a specific client's details 
 def update_clientdetails(client_id, field_to_update, new_value, encryption_key):
@@ -48,7 +50,7 @@ if __name__ == "__main__":
     client_id_to_update = int(sys.argv[1])
     field_to_update = input("Enter the field to update (e.g., clientname, password, email): ")
     new_value = input("Enter the new value: ")
-    encryption_key = input("Enter the encryption key: ")
+    encryption_key = os.environ.get("ENCRYPTION_KEY")
 
     success = update_clientdetails(client_id_to_update, field_to_update, new_value, encryption_key)
 
