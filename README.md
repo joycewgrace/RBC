@@ -41,9 +41,7 @@ Call the script as shown below:
 
 1st argument - Client_Id
 
-2nd argument - Security_Key
-
-![image](https://github.com/joycewgrace/RBC/assets/141069257/ddd4760e-f434-466a-93c8-1e819fb2ba57)
+![image](https://github.com/joycewgrace/RBC/assets/141069257/a19cc102-0f65-48ad-bc42-454ea5b04a71)
 
 **Step 10**
 
@@ -55,7 +53,8 @@ Call the script and enter values for prompts as shown below:
 
 Argument - Client_Id
 
-![image](https://github.com/joycewgrace/RBC/assets/141069257/0d70e645-daa7-4d5e-9827-858f15651de4)
+![image](https://github.com/joycewgrace/RBC/assets/141069257/f925b5cf-68bf-4eec-b6ce-3ae8532a144f)
+
 
 
 
