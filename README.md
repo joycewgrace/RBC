@@ -33,6 +33,32 @@ https://github.com/joycewgrace/RBC/blob/main/SQL/DML/client_credentials.sql
 
 **Step 9**
 
+Save the below Python script (script of the python function that retrieves client details) into the local machine.
+
+https://github.com/joycewgrace/RBC/blob/main/Scripts/RBC_Client_Credentials_Retrieval.py
+
+Call the script as shown below: 
+
+1st argument - Client_Id
+
+2nd argument - Security_Key
+
+![image](https://github.com/joycewgrace/RBC/assets/141069257/ddd4760e-f434-466a-93c8-1e819fb2ba57)
+
+**Step 10**
+
+Save the below Python script (script of the python function that updates client details) into the local machine.
+
+https://github.com/joycewgrace/RBC/blob/main/Scripts/RBC_Client_Credentials_Update.py
+
+Call the script and enter values for prompts as shown below: 
+
+Argument - Client_Id
+
+![image](https://github.com/joycewgrace/RBC/assets/141069257/0d70e645-daa7-4d5e-9827-858f15651de4)
+
+
+
 
 
 
