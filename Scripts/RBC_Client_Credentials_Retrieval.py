@@ -1,5 +1,6 @@
 import sys
 import psycopg2
+import os
 
 # This function will retrieve the client details using the client_id and encryption key
 def retrieve_clientdetails(client_id, encryption_key):
@@ -52,12 +53,12 @@ def retrieve_clientdetails(client_id, encryption_key):
 
 # Main
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
+    if len(sys.argv) != 2:
         print("Argument list invalid")
         sys.exit(1)
-
+    
+    encryption_key = os.environ.get("ENCRYPTION_KEY")
     client_id = int(sys.argv[1])
-    encryption_key = sys.argv[2]
 
     retrieved_client_details = retrieve_clientdetails(client_id, encryption_key)
 
