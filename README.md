@@ -126,7 +126,7 @@ Encrypted columns need to be stored in bytea data type instead of varchar.
 <ul>
 In this solution, I have given the Encryption key as an environment variable, but in case of Enterprise level solution, we can have the vaiable in an environment file, and assign only the execute permission to the python job/business user similar to the below:
   
-![image](https://github.com/joycewgrace/RBC/assets/141069257/e690d23b-42e5-46a8-adf0-581007aa2631)
+[![image](https://github.com/joycewgrace/RBC/assets/141069257/e690d23b-42e5-46a8-adf0-581007aa2631)](https://imgur.com/a/usfjp6x)
 
 </ul>
 </details>
