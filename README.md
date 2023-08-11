@@ -22,7 +22,7 @@ https://github.com/joycewgrace/RBC/blob/main/SQL/DDL/User/dbAdmin.sql
 Log in as dbAdmin and execute the below scripts to create an sqluser and the ClientDB database
 
 https://github.com/joycewgrace/RBC/blob/main/SQL/DDL/User/sqluser.sql
-https://github.com/joycewgrace/RBC/blob/main/SQL/DDL/User/Database/ClientDB.sql
+https://github.com/joycewgrace/RBC/blob/main/SQL/DDL/Database/ClientDB.sql
 
 
 **Step 4**
