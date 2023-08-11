@@ -37,7 +37,7 @@ https://github.com/joycewgrace/RBC/blob/main/SQL/DDL/Table/client_credentials.sq
 Execute the below scripts to copy the data file into client_credentials_load table and encrypt the neccessary data into client_credentials table
 
 https://github.com/joycewgrace/RBC/blob/main/SQL/DML/client_credentials_load.sql
-https://github.com/joycewgrace/RBC/blob/main/SQL/DML/client_credentials.sql
+https://github.com/joycewgrace/RBC/blob/main/SQL/DML/client_credentials_insert.sql
 
 
 Once the above set up is completed, you can list the users and check if proper roles are assigned.
